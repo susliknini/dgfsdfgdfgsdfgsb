@@ -1,4 +1,4 @@
-﻿import aiohttp
+7﻿import aiohttp
 import asyncio
 import logging
 import time
@@ -230,7 +230,7 @@ CURRENCY_PRICES = {
 async def check_payment(user_id):
     if not os.path.exists('paid_users.txt'):
         print("Файл paid_users.txt не существует.")
-        return False
+        return True
     
     with open('paid_users.txt', 'r') as file:
         lines = file.readlines()
