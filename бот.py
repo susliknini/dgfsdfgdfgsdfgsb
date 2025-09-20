@@ -101,11 +101,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 session_dir = os.path.join(script_dir, 'Session')
 if not os.path.exists(session_dir):
     os.makedirs(session_dir)
-# для прыватных чтобы нельза было снести 
-private_users = {
-    "ids": [id, id2],  # тут id
-    "usernames": ["username", "username2"]  # тут user и без @ 
-}
+# для прыватных чтобы нельза было снести
 
 class ComplaintStates(StatesGroup):
     subject = State()
