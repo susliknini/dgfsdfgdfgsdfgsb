@@ -1,7 +1,7 @@
 ﻿api_id = '21826549'
 api_hash = 'c1a19f792cfd9e397200d16c7e448160'
 bot_token = '8249361866:AAEpYc48-XeiFFBPmBEbJnzwuiffYk88v9Y'
-admin_chat_ids = [8312135656]  # Добавьте сюда ID всех администраторов '8312135656', 'id' и тд
+admin_chat_ids = [8312135656]
 CRYPTO_PAY_TOKEN = 'lmao' # тут замените на свой api от бота @send
 
 senders = {
