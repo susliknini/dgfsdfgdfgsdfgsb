@@ -1,0 +1,10 @@
+aiogram==2.25.1
+telethon==1.28.5
+aiohttp==3.8.5
+requests==2.31.0
+python-dotenv==1.0.0
+pillow==10.0.1
+cryptography==41.0.7
+pyrogram==2.0.106
+tgcrypto==1.2.5
+async-timeout==4.0.3
